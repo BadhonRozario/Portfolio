@@ -1,0 +1,17 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and local workspace files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local environment and generated output
+.env
+.env.*
+!.env.example
+dist/
+build/
