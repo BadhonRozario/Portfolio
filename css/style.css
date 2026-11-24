@@ -131,6 +131,8 @@ body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opa
 @keyframes terminal-caret{50%{opacity:0}}
 @media(max-width:850px){.hero{min-height:620px}.page-hero{padding-top:68px}}
 @media(max-width:640px){
+  .site-header{z-index:20}
+  .nav-links,.nav-links.open{z-index:30}
   .hero{min-height:unset;padding-block:52px 48px;gap:0}
   .hero-copy::before{font-size:9px;letter-spacing:.7px;margin-bottom:17px}
   .hero h1,.page-hero h1{font-size:clamp(39px,11vw,54px);line-height:1.13;letter-spacing:-2.4px}
