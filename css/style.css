@@ -177,3 +177,10 @@ body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opa
   .experience-duration{align-self:flex-start}
   .experience-address{margin:2px 0 0;color:#a6b8c5;font-size:10px;line-height:1.45}
 }
+
+/* Real project images used on the Projects page. */
+.project-art-photo{position:relative;overflow:hidden;background:#0b1828;isolation:isolate}
+.project-art-photo .project-photo{position:absolute;inset:0;z-index:0;width:100%;height:100%;max-width:none;object-fit:cover}
+.project-photo-shade{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,transparent 55%,rgba(4,12,21,.76) 100%);pointer-events:none}
+.project-art-photo>.art-index{z-index:2;color:#fff;text-shadow:0 1px 8px #000}
+.research-card{grid-template-columns:minmax(0,1fr)}
